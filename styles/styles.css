@@ -95,6 +95,16 @@ div.banner{
   width:240px; 
   height: 240px;
 }
+
+.alignment{
+
+  gap: 24px;
+}
+.picture{
+  align-items: flex-start;
+}
+
+
 /* why web */
 .why-web{
   text-align: center;
@@ -107,22 +117,61 @@ footer>ul>li{
 .skill{
       padding: 30px;
       background-color:rgba(255, 76, 30, 0.05) ;
+      border-radius: 10px;
 
     }
 .skillone{
   padding: 30px;
   background-color:rgba(0, 76, 232, 0.05);
+  border-radius: 10px;
+  
 
 }    
 .skill-two{
   padding: 30px;
   background-color:rgba(255, 223, 0, 0.05) ;
-
+  border-radius: 10px;
+ 
 }
 .skills-container{
     display: flex;
     gap: 24px;
+    
 }
 
+/* support */
+.bg-picture{
+       color: white;
+       text-align: center;
+       background-image: url("/assets/handshake.jpg"); 
+       padding:64px 48px;
+       image-resolution: 1140px 313px;
+       background-repeat: no-repeat;
+       
+}
+.submit{
+  background-color:rgba(255, 255, 255, 1) ;
+  font-weight: bold;
+  padding: 5px 14px;
+  cursor: pointer;
+  border-radius:5px;
+  border-color:white;
+      
+}
+.box{
+  padding: 5px 80px;
+  border-radius: 5px;
+  border-color: white;
 
-
+}
+/* position */
+.position{
+  color:rgba(13, 19, 33, 0.7) ;
+}
+/* link learn more */
+.link{
+  color: black;
+}
+.go{
+  color: black;
+}
