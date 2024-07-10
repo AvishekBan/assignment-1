@@ -12,7 +12,7 @@ nav{
     justify-content: space-between;
     margin: 0,200px;
 }
-nav > h4 {
+nav > h3 {
   font-weight:1000px;
 
   
@@ -34,7 +34,71 @@ nav li a{
     font-size: 20px;
     padding: 17px 24px;
     border-radius: 5px;
-
-    
+    cursor: pointer;
 }
-  
+.btn-secondary{
+  background-color:rgba(13, 19, 33, 1);
+    color: white;
+    font-weight:bold;
+    font-size: 20px;
+    padding: 17px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-third{
+  background-color: white;
+    color: rgba(13, 19, 33, 1);
+    font-weight:bold;
+    font-size: 15px;
+    width: 171px;
+    height:47px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+/* header */
+.banner{
+  background-image: url("/assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  width: 1280;
+}
+
+/* banner */
+.banner-profile-picture{
+  padding-top: 40px;
+}
+div.banner{
+  justify-content: center;
+  text-align: center;
+}
+
+/* image style */
+.right{
+  display: inline-flex;
+  justify-content: space-between;
+  float: inline-end;
+  width:240px;
+  height: 240px; 
+
+}
+
+.left{
+  display: inline-flex;
+  justify-content: space-between;
+  float: inline-start;
+  width:240px; 
+  height: 240px;
+}
+/* why web */
+.why-web{
+  text-align: center;
+}
+/* footer */
+.footer-end{
+  display: right;
+    
+
+}
+
