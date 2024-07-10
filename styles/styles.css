@@ -74,13 +74,17 @@ div.banner{
   text-align: center;
 }
 
-/* image style */
+ /* image style  */
+ 
+
+ 
 .right{
   display: inline-flex;
   justify-content: space-between;
   float: inline-end;
   width:240px;
   height: 240px; 
+  
 
 }
 
@@ -96,9 +100,29 @@ div.banner{
   text-align: center;
 }
 /* footer */
-.footer-end{
-  display: right;
-    
+footer>ul>li{
+  display: inline;
+}
+  /* skills */
+.skill{
+      padding: 30px;
+      background-color:rgba(255, 76, 30, 0.05) ;
+
+    }
+.skillone{
+  padding: 30px;
+  background-color:rgba(0, 76, 232, 0.05);
+
+}    
+.skill-two{
+  padding: 30px;
+  background-color:rgba(255, 223, 0, 0.05) ;
 
 }
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+
 
