@@ -60,7 +60,7 @@ nav li a{
 
 /* header */
 .banner{
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("..//assets/Hero-bg.png");
   background-repeat: no-repeat;
   width: 1280;
 }
@@ -143,7 +143,7 @@ footer>ul>li{
 .bg-picture{
        color: white;
        text-align: center;
-       background-image: url("/assets/handshake.jpg"); 
+       background-image: url("..//assets/handshake.jpg"); 
        padding:64px 48px;
        image-resolution: 1140px 313px;
        background-repeat: no-repeat;
